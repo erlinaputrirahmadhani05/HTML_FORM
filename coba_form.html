@@ -7,15 +7,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
-        <form action="/action_png.php" atribut="_blank" method="get">
+        <form action="/action_png.php" target="_blank" method="post">
             <lable for="depan">Nama depan:</lable><br>
-            <input type="text" id="depan" name="i_name" value=Budi>
+            <input type="text" id="depan" name="i_name" value=Budi><br>
             <lable for="n_belakang">Nama belakang:</lable><br>
-            <input type="text" id="n_belakang" name="i_belakang" value=Prawira>
+            <input type="text" id="n_belakang" name="i_belakang" value=Prawira><br><br>
             <input type="submit" value="Kirim">
             <input type="reset" value="Reset">
         </forms>
         <p>Jika Anda mengklik tombol "Kirim", data formulir akan dikirim ke halaman bernama "/action_page.php."</p>
-        <p>Kesimpulan:</p>
+        <p>Kesimpulan: program tersebut meng input nama depan dan nama belakang.<br>
+        kemudian ada tambahan atribut "target _blank" untuk membuka jendela baru dan <br>
+        apabila ditambahkan atribut "target _self" tetap membuka pada jendela yang sama.<br>
+        Ada tambahan atribut "method="post" untuk membuka halaman baru yang mengarah  </p>
     </body>
 </html>
